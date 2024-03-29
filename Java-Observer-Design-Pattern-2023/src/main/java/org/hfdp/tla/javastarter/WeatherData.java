@@ -3,13 +3,13 @@ import java.util.ArrayList; // import the ArrayList class
 
 // The WeatherData class that implements Subject
 public class WeatherData implements Subject {
-    private ArrayList observers;
+    private ArrayList<Observer> observers;
     private float temperature;
     private float humidity;
     private float pressure;
 
     public WeatherData() {
-        observers = new ArrayList();
+        observers = new ArrayList<>();
     }
 
     public void registerObserver(Observer o) {
