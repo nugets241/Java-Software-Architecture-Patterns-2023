@@ -1,4 +1,4 @@
-# Java Software Architecture Patterns 2024
+# Java Software Architecture Patterns 2023
 
 This repository contains several projects demonstrating the use of various design patterns in Java. Each project is a Maven project and can be built and run independently.
 
